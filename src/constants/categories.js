@@ -1,5 +1,9 @@
 export const CATEGORIES = [
   {
+    name: "Linux",
+    slug: "linux",
+  },
+  {
     name: "Apple",
     slug: "apple",
   },
@@ -26,5 +30,9 @@ export const CATEGORIES = [
   {
     name: "React",
     slug: "react",
+  },
+  {
+    name: "Netflix",
+    slug: "netflix",
   },
 ];

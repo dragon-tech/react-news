@@ -29,3 +29,36 @@
   height: 32px;
   width: 32px;
 }
+
+.categories {
+  display: flex;
+  width: 100%;
+  padding: 16px 0 0 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  /* Hide scrollbar for IE, Edge and firefox */
+  -ms-overflow-style: none; /*IE and Edge*/
+  scrollbar-width: none; /*firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.categories > a {
+  margin: 0 4px;
+}
+
+.category {
+  padding: 4px 8px;
+  background-color: var(--secondary-brand-color);
+  border-radius: 4px;
+  color: var(--secondary-font-color);
+  font-size: 10px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.selected {
+  background-color: var(--main-font-color);
+}
