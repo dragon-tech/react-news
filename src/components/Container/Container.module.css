@@ -1,9 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   max-width: 480px;
-  min-height: calc(100vh - 55px);
+  min-height: calc(100vh - 94px);
   margin: 0 auto;
   padding: 16px;
   background-color: var(--main-container-color);
