@@ -1,14 +1,23 @@
 import PropTypes from "prop-types";
 import styles from "./NewsList.module.css";
+import NewsCard from "../NewsCard";
 
 const NewsList = ({ articles }) => {
   return (
     <div className={styles.newsList}>
       {articles.map((article, index, arr) => {
         return (
-          <div key={index}>
-            <h1>{article.title}</h1>
-          </div>
+          <NewsCard
+            key={index}
+            src={article.urlToImage}
+            title={article.title}
+            publishedAt={article.publishedAt}
+            author={article.author}
+            sourceName={article.source.name}
+            description={article.description}
+            url={article.url}
+            notLasChild={!(arr.length === index + 1)}
+          />
         );
       })}
     </div>
