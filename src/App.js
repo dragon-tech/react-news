@@ -1,10 +1,10 @@
 import Container from "./components/Container";
+import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <Container>
-        <h1>Hello, world!</h1>
-      </Container>
+      <Navbar />
+      <Container></Container>
     </>
   );
 }
