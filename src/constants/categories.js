@@ -8,10 +8,6 @@ export const CATEGORIES = [
     slug: "apple",
   },
   {
-    name: "Playstation",
-    slug: "playstation",
-  },
-  {
     name: "Microsoft",
     slug: "microsoft",
   },
@@ -22,10 +18,6 @@ export const CATEGORIES = [
   {
     name: "Google",
     slug: "google",
-  },
-  {
-    name: "Gaming",
-    slug: "gaming",
   },
   {
     name: "React",
